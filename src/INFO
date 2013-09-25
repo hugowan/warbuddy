@@ -1,0 +1,15 @@
+http://warsystem.oa.tvb.com/timesheet_process.php
+
+
+curl 'http://warsystem.oa.tvb.com/timesheet_process.php' -H 'Cookie: fbm_338115260798=base_domain=.tvb.com; tvb_phpbb3_alpul_sid=afbfa51f7ee8d022af5ae8946d0b2bab; PHPSESSID=c6na1hsr3088optm6pvta2cda6; PHPSESSID=9388c3f6a15b71677a8edab94261f967; pgv_pvid=5809580340; pgv_flv=11.7 r700; pgv_info=ssid=s6764828714; A=%5B%22hw90756%22%2C1372821415%2C908655%2C%22ITTu%2B5ioF7C1OI4rkxeqR7zS%5C%2Fe7VhmRb5i%2BPjHN2tftaTbfE3f0RJPotnNDpJ54xwGOdJvFwC5TAo9wGSsEd%5C%2FNwxkiujOtzQrOQVf9P7XhsZHc7vlNwtIen49470eS8mXOt8kMlYR%5C%2FN4ZPiaukkYKiokskRiREeA7eGdHOVrx2E%3D%22%5D; __utma=189371502.1214924310.1360815202.1373872532.1373967282.39; __utmc=189371502; __utmz=189371502.1368612240.30.7.utmcsr=mytv.tvb.com|utmccn=(referral)|utmcmd=referral|utmcct=/drama; __utmv=189371502.|1=ug=annoyance=1; arp_scroll_position=56' -H 'Origin: http://warsystem.oa.tvb.com' -H 'Accept-Encoding: gzip,deflate,sdch' -H 'Host: warsystem.oa.tvb.com' -H 'Accept-Language: en-US,en;q=0.8' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Referer: http://warsystem.oa.tvb.com/employee_projectstatus.php' -H 'Connection: keep-alive' --data 
+'date=2013-07-18&
+
+id%5B%5D=&activity_id%5B%5D=27&project_id%5B%5D=0&comments%5B%5D=111&time_spent%5B%5D=0.5&
+id%5B%5D=&activity_id%5B%5D=27&project_id%5B%5D=0&comments%5B%5D=111&time_spent%5B%5D=0.5&
+
+Submit=Save+to+Draft' --compressed
+
+id[]=&activity_id[]=27&project_id[]=0&comments[]=111&time_spent[]=0.5&
+id[]=&activity_id[]=27&project_id[]=0&comments[]=111&time_spent[]=0.5&
+
+

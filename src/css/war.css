@@ -1,0 +1,88 @@
+* {margin: 0 auto; padding: 0;}
+
+body {background: url(http://img.tvb.com/tv/live/196408db-eb9b-4f85-b845-5191489dbabc.png) #F9F9F9; position: relative;}
+.hidden {display: none;}
+
+.buddy-alert {background: #F62A4B; border-radius: 3px; color: #FFF; font-size: 16px; line-height: 16px; font-family: sans-serif; font-weight: bold; width: 1106px; top: -100px; left: 50%; margin-left: -563px; position: absolute; padding: 8px 10px; opacity: .8;}
+
+#buddy-wrapper {color: #000; font-family: sans-serif; float: left; width: 1126px; top: 50px; left: 50%; margin-left: -563px; position: absolute;}
+
+#buddy-fixed {width: 356px; float: right;}
+#buddy-fixed #buddy-head {display: inline-block; float: left;}
+#buddy-fixed #buddy-head .calendar {border-collapse: collapse; border-spacing: 0; color: #444; font-weight: bold; width: 350px;}
+#buddy-fixed #buddy-head .calendar caption {background: #75C27D; color: #FFF; height: 30px; text-align: left; border-top-left-radius: 3px; border-top-right-radius: 3px;}
+#buddy-fixed #buddy-head .calendar caption div {font-size: 38px; height: 30px; margin-left: 8px; overflow: hidden;}
+#buddy-fixed #buddy-head .calendar thead th {background: #414146; color: #6A6B6D; font-size: 14px; text-transform: uppercase; height: 20px; padding: 5px 0 0 6px;}
+#buddy-fixed #buddy-head .calendar tbody td {background: #2B2F35; border: 1px solid #44484D; color: #EEE; cursor: pointer; font-size: 18px; width: 50px; height: 30px;}
+#buddy-fixed #buddy-head .calendar tbody td:first-child,
+#buddy-fixed #buddy-head .calendar tbody td:last-child {border-left: none; border-right: none;}
+#buddy-fixed #buddy-head .calendar tbody td:hover,
+#buddy-fixed #buddy-head .calendar tbody td.selected {background: #EDECEB; color: #45484D;}
+#buddy-fixed #buddy-head .calendar tbody td:hover .number,
+#buddy-fixed #buddy-head .calendar tbody td.selected .number {border-left: 6px solid #9BC593;}
+#buddy-fixed #buddy-head .calendar tbody td .number {border-left: 6px solid #44484D; width: 44px; height: 30px; line-height: 30px; text-align: center;}
+#buddy-fixed #buddy-head .calendar .otherMonth {color: #515458;}
+
+#buddy-fixed #buddy-neck {background: #79C0AD; display: inline-block; font-weight: bold; float: left; width: 356px; height: 25px; overflow: hidden; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; box-shadow: 0 3px #D8D8D8;}
+#buddy-fixed #buddy-neck #neck-previous, #buddy-fixed #buddy-neck #neck-next {cursor: pointer; color: #FFF; float: left; height: 25px; line-height: 25px; width: 178px; font-size: 34px; text-align: center;}
+#buddy-fixed #buddy-neck #neck-previous:hover, #buddy-fixed #buddy-neck #neck-next:hover {color: #FFF; background: #FF7676;}
+#buddy-fixed #buddy-neck span {margin-top: 8px; display: inline-block;}
+
+#buddy-fixed #buddy-hand {background: #E6B713; display: inline-block; font-weight: bold; float: left; width: 356px; height: 40px; overflow: hidden; border-radius: 3px; box-shadow: 0 3px #D8D8D8; margin-top: 10px;}
+#buddy-fixed #buddy-hand input[type=radio] {display: none;}
+#buddy-fixed #buddy-hand input[type=radio] + label {color: #FFF; cursor: pointer; display: block; float: left; font-size: 34px; width: 178px; overflow: hidden; text-align: center; margin-top: -8px; opacity: .3;}
+#buddy-fixed #buddy-hand input[type=radio]:checked + label {color: #FFF; margin-top: 12px; opacity: 1;}
+
+#buddy-fixed #buddy-submit {background: #C6B1DC; border-radius: 3px; box-shadow: 0 3px #D8D8D8; cursor: pointer; float: left; text-align: center; margin-top: 10px; width: 100%; height: 40px; overflow: hidden;}
+#buddy-fixed #buddy-submit span {color: #FFF; display: block; font-size: 48px; font-weight: bold; margin-top: 8px;}
+
+#buddy-fixed #buddy-brain {box-shadow: 0 3px #D8D8D8; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; float: left; margin-top: 10px; width: 100%;}
+#buddy-fixed #buddy-brain .title {background: #4F4F4C; height: 30px; border-top-left-radius: 3px; border-top-right-radius: 3px; overflow: hidden;}
+#buddy-fixed #buddy-brain .title span {color: #FFF; display: block; font-weight: bold; font-size: 38px; margin-left: 8px;}
+#buddy-fixed #buddy-brain .content {background: #FFF;}
+#buddy-fixed #buddy-brain .content ul {padding: 7px 0 5px 8px;}
+#buddy-fixed #buddy-brain .content li {color: #6A6B6D; font-weight: bold; list-style: none; width: 100%; height: 20px; line-height: 20px;}
+
+
+/*
+#buddy-fixed .calendar td.today
+#buddy-fixed .calendar td.today .number
+*/
+
+
+#buddy-float {float: left; margin-right: 10px;}
+#buddy-float #buddy-stomach {background: #FFF; border-radius: 3px; width: 750px; height: 125px; box-shadow: 0 3px #D8D8D8; margin-bottom: 10px;}
+#buddy-float #buddy-stomach > div {display: inline-block;}
+#buddy-float #buddy-stomach .control {background: #C6DE64; border-top-left-radius: 3px; border-bottom-left-radius: 3px; float: left; margin-right: 10px; width: 35px; height: 100%; cursor: pointer;}
+#buddy-float #buddy-stomach .content {float: left; padding: 10px 10px 10px 0; width: 695px;}
+#buddy-float #buddy-stomach #rs-time .minict_wrapper {float: left; width: 85px; margin-right: 5px;}
+#buddy-float #buddy-stomach #rs-activity .minict_wrapper {float: left; width: 260px; margin-right: 5px;}
+#buddy-float #buddy-stomach #rs-project .minict_wrapper {float: left; width: 340px;}
+#buddy-float #buddy-stomach textarea {border-radius: 6px; border: 1px solid #e5e5e5; font-family: sans-serif; width: 683px; height: 58px; margin-top: 5px; padding: 5px; resize: none; font-weight: bold; font-size: 16px;}
+
+#buddy-float #buddy-abdomen {width: 750px; position: relative;}
+#buddy-float #buddy-abdomen li {list-style: none; background: #FFF; border-radius: 3px; display: inline-block; width: 750px; height: 80px; box-shadow: 0 3px #D8D8D8; margin-bottom: 7px;}
+#buddy-float #buddy-abdomen .control {background: #F97E76; border-top-left-radius: 3px; border-bottom-left-radius: 3px; float: left; margin-right: 10px; width: 35px; height: 100%; cursor: pointer;}
+#buddy-float #buddy-abdomen .content {border-top-right-radius: 3px; border-bottom-right-radius: 3px; float: left; width: 685px; position: relative; padding: 10px 10px 10px 0;}
+
+#buddy-float #buddy-abdomen .content .activity {color: #333; height: 16px; padding-right: 5px; font-size: 16px; font-weight: bold; display: table-cell; vertical-align: bottom;}
+#buddy-float #buddy-abdomen .content .project {color: #999; height: 16px; font-size: 12px; display: table-cell; vertical-align: bottom;}
+#buddy-float #buddy-abdomen .content .comment {color: #333; float: left; font-size: 13px; width: 685px; margin-top: 5px;}
+#buddy-float #buddy-abdomen .content .time {color: #CCC; font-size: 64px; letter-spacing: -6px; position: absolute; top: 0; right: 0;}
+
+
+
+/*
+.calendar caption { color: #888888; }
+.calendar thead { font-size:0.5em; }
+.calendar td { width: 2em; height: 2em; }
+.day * { position: relative; padding: 0; }
+.day .number { font-size:0.5em; top: -0.2em; left: 0.2em; }
+.day .event { text-align: center; font-size: 1em;  bottom: 0.5em; width: 2em; height: 1em; }
+th.sun, .sun .number { color: #ff0000; }
+th.sat, .sat .number { color: #0000ff; }
+.otherMonth * { color: #888888; }
+.sun.otherMonth *.number { color: #ff8888; }
+.sat.otherMonth *.number { color: #8888ff; }
+
+*/
